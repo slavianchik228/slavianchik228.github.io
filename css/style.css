@@ -1,0 +1,234 @@
+/* Custom Stylesheet */
+
+
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+}
+
+p {
+    line-height: 2rem;
+}
+
+.sidenav-trigger {
+    color: #26a69a;
+}
+
+.parallax-container {
+    min-height: 380px;
+    line-height: 0;
+    height: auto;
+    color: rgba(255, 255, 255, .9);
+}
+
+.parallax-container .section {
+    width: 100%;
+}
+
+@media only screen and (max-width: 992px) {
+    .parallax-container .section {
+        position: absolute;
+        top: 40%;
+    }
+    #index-banner .section {
+        top: 10%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    #index-banner .section {
+        top: 0;
+    }
+}
+
+.icon-block {
+    padding: 0 15px;
+}
+
+.icon-block .material-icons {
+    font-size: inherit;
+}
+
+footer.page-footer {
+    margin: 0;
+}
+
+.responsive-img {
+
+    width: 70%;
+    height: 70%;
+
+    
+}
+
+.сolor{
+    background-color: #FFD700;
+    
+}
+
+.parallax-container{
+height: 600px;
+
+}
+
+.row{
+color: black;
+
+
+}
+
+.icon-block{
+    background-color: #D9D9D9;
+    padding-top: 15px;
+}
+
+.responsive-img-1 {
+
+    max-width: 100%;
+    height: auto;
+    
+
+}
+
+.responsive-img-2 {
+
+    max-width: 100%;
+    height: auto;
+
+}
+
+
+
+
+.light{
+
+    line-height: 1.5;
+}
+
+.icon-block{
+    min-height: 800px;
+}
+
+.icon-block-1{
+    text-align: center;
+}
+
+
+.color-block{
+
+background-color: #FFD700;
+
+}
+
+
+.back-color_block {
+    background-color: #b9b9b9;
+  }
+
+  .responsive-img-3 {
+
+    max-width: 100%;
+    height: auto;
+    
+
+}
+
+.textsize{
+    font-size: 14px;
+    font-weight:bolder;
+
+}
+
+.bagc{
+    
+    margin-right: 15px;
+    margin-bottom: 15px;
+    background-image: url(/img/backgound.png);
+       
+    background-size: 100%;
+   
+}
+
+.imagegl{
+
+    max-width: 90%;
+    
+}
+.page-footer{
+    font-size: 10px;
+    background-image: url(/img/footer.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fon{
+    background-image: url(/img/backfonforviews.png);
+    background-size: 100%;
+
+}
+
+.responsive-img-5{
+    max-width: 100%;
+    height: auto;
+}
+
+.otstup{
+
+    margin-top: 35px;
+    
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.foto{
+    background-image: url(/img/backgtound_avtorizazion.png);
+    background-size: 100%;
+
+}
+
+.margin{
+    margin-top: 200px;
+
+}
+
+.zay{
+    background-color: #D9D9D9;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 0px;
+}
+
+
+
+
+.determinate-1{
+position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #26a69a;
+  -webkit-transition: width .3s linear;
+  transition: width .3s linear;
+}
+
+
+
+
+
+.responsive-img{
+    max-height: 95%;
+}
+
+
+
+
