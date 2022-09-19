@@ -40,6 +40,8 @@ p {
     #index-banner .section {
         top: 10%;
     }
+
+   
 }
 
 @media only screen and (max-width: 600px) {
@@ -47,6 +49,14 @@ p {
         top: 0;
     }
 }
+
+@media only screen and (min-width: 992px) {
+    .hide1{
+        display: none;
+
+    }
+}
+
 
 .icon-block {
     padding: 0 15px;
@@ -141,8 +151,15 @@ background-color: #FFD700;
 }
 
 .textsize{
+    /* position:relative; */
     font-size: 14px;
     font-weight:bolder;
+
+}
+
+.imagegl{
+    /* position: absolute; */
+    display: table-cell;
 
 }
 
@@ -153,14 +170,11 @@ background-color: #FFD700;
     background-image: url(/img/backgound.png);
        
     background-size: 100%;
+    min-height: 400px;
    
 }
 
-.imagegl{
 
-    max-width: 90%;
-    
-}
 .page-footer{
     font-size: 10px;
     background-image: url(/img/footer.png);
@@ -229,6 +243,20 @@ position: absolute;
     max-height: 95%;
 }
 
+.siz{
+
+    font-size:140%;
+}
+
+.image1{
+
+    background-image: url(/img/ob.jpg);
+    background-position: center;
+    
+    background-repeat: no-repeat;
+   
+
+}
 
 
 
